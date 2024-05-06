@@ -24,6 +24,6 @@ void parse_args(int count, char* list[]){                                      /
 // MAIN FUNCTION
 
 int main(int argc, char* argv[]){
-	cmd_add("test");
+	parse_todo_file(todo_list);
 	parse_args(argc, argv);
 }
